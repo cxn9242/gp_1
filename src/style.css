@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin:2px;
+  padding:2px;
+  font-family:"Open Sans", verdana;
+}
+
+img {
+  border: 1px solid #eee;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Button {
+  font-weight:bold;
+  border-radius: 3px;
+  margin:10px;
+}
